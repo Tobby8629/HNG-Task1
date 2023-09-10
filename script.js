@@ -15,4 +15,4 @@ const getCurrentUTCTime = () => {
 
 // Update the elements with dynamic data
 document.querySelector('[data-testid="currentDayOfTheWeek"]').textContent = getCurrentDayOfWeek();
-document.querySelector('[data-testid="currentUTCTime"]').textContent = `Current UTC Time: ${getCurrentUTCTime()} milliseconds`;
+document.querySelector('[data-testid="currentUTCTime"]').textContent = ` Time: ${getCurrentUTCTime()} `;
